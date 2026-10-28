@@ -1,0 +1,13 @@
+# Python virtual environment
+.venv/
+
+# MkDocs generated website
+site/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local environment variables and secrets
+.env
+.env.*

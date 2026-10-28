@@ -1,0 +1,30 @@
+
+site_name: Chenyang's Knowledge Base
+
+theme:
+  name: material
+  language: zh
+
+  features:
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - navigation.top
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: 切换深色模式
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: 切换浅色模式
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+        - ja
