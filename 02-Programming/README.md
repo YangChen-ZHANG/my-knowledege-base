@@ -15,6 +15,12 @@
 
 未来添加 GitHub 操作教程。
 
+
+## Python Programs
+
+- [Hello Python - 第一个程序](python-examples/hello.py)
+
+
 ---
 
 [🏠 返回知识库首页](../README.md)
