@@ -15,20 +15,22 @@ theme:
     - content.code.copy
   
 
+
   palette:
     - scheme: default
-      primary: indigo
-      accent: teal
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: ダークモードに切り替え
 
     - scheme: slate
-      primary: indigo
-      accent: teal
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: ライトモードに切り替え
+
 
 markdown_extensions:
   - admonition
@@ -63,3 +65,6 @@ nav:
           - Midiprep: protocols/molecular-biology/midiprep.md
           - Reagent Preparation: protocols/molecular-biology/reagent-preparation.md
 
+
+extra_css:
+  - stylesheets/extra.css

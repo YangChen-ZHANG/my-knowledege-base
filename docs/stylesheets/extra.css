@@ -1,0 +1,112 @@
+
+/* ================================
+   Chenyang Research Library
+   Academic Theme
+================================ */
+
+/* 浅色模式 */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #213d60;
+  --md-primary-fg-color--light: #45688c;
+  --md-primary-fg-color--dark: #142b47;
+  --md-accent-fg-color: #008b80;
+  --md-default-bg-color: #f8fafc;
+}
+
+/* 深色模式 */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #243750;
+  --md-primary-fg-color--light: #365272;
+  --md-primary-fg-color--dark: #162439;
+  --md-accent-fg-color: #5dd6c0;
+}
+
+/* 标题设计 */
+.md-typeset h1 {
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h2 {
+  font-weight: 650;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.4rem;
+}
+
+/* 首页 Hero 区域 */
+.kb-hero {
+  padding: 3rem 2.5rem;
+  margin-bottom: 2rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #213d60, #285d73);
+  color: #fff;
+}
+
+.kb-hero h1 {
+  color: #fff;
+  font-size: 2.3rem;
+  font-weight: 750;
+  margin-bottom: 0.8rem;
+}
+
+.kb-hero p {
+  color: #e0ebf1;
+}
+
+.kb-eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.kb-hero .md-button {
+  border-color: #fff;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.kb-hero .md-button--primary {
+  background: #fff;
+  color: #213d60;
+}
+
+.kb-hero .md-button:hover {
+  background: #dcefe9;
+  color: #213d60;
+  border-color: #dcefe9;
+}
+
+/* 首页分类卡片 */
+.md-typeset .grid.cards > ul > li {
+  border-radius: 12px;
+  transition: transform 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(20, 40, 60, 0.10);
+}
+
+/* 表格 */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 提示框 */
+.md-typeset .admonition {
+  border-radius: 8px;
+}
+
+/* 手机适配 */
+@media screen and (max-width: 600px) {
+  .kb-hero {
+    padding: 1.8rem 1.3rem;
+  }
+
+  .kb-hero h1 {
+    font-size: 1.7rem;
+  }
+}

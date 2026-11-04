@@ -1,60 +1,72 @@
 
-# 📚 Chenyang's Knowledge Base
+<div class="kb-hero" markdown>
 
-Welcome to my personal knowledge base!
+<p class="kb-eyebrow">PERSONAL RESEARCH LIBRARY</p>
 
-欢迎来到我的个人知识库。
+# Chenyang's Knowledge Base
 
-这里长期记录科研、编程、金融、论文阅读及个人项目。
+分子生物学・細胞生物学・研究ノート
+
+実験プロトコルや研究に関する知識を整理し、
+効率的に参照するための個人ライブラリです。
+
+[実験プロトコルを見る](protocols/index.md){ .md-button .md-button--primary }
+
+</div>
+
+## Explore the Library
+
+<div class="grid cards" markdown>
+
+-   ### 🧬 Molecular Biology
+
+    ---
+
+    DNA cloning、PCR、Ligation、
+    Transformation、Miniprep など。
+
+    [プロトコルを見る](protocols/index.md)
+
+-   ### 🔬 Laboratory Protocols
+
+    ---
+
+    実験操作、使用試薬、反応条件、
+    トラブルシューティングを整理。
+
+    [実験手順一覧](protocols/index.md)
+
+-   ### 📚 Research Notes
+
+    ---
+
+    研究に関する知識や学習内容を
+    蓄積するためのセクション。
+
+    *Coming Soon*
+
+-   ### 📝 Paper Library
+
+    ---
+
+    論文の精読、Journal Club、
+    研究背景の整理。
+
+    *Coming Soon*
+
+</div>
 
 ---
 
-## 🗂️ Knowledge Categories
+## Quick Access
 
-### 🔬 Biomedical Research
+よく使用する実験プロトコルにすぐアクセスできます。
 
-分子生物学、细胞死亡机制和实验技术。
-
-📖 [进入 Biomedical Research](01-Biomedical-Research/README.md)
-
-### 💻 Programming
-
-Python、R、GitHub 以及数据分析学习笔记。
-
-📖 [进入 Programming](02-Programming/README.md)
-
-### 📈 Finance
-
-公司估值、金融市场和宏观经济研究。
-
-📖 [进入 Finance](03-Finance/README.md)
-
-### 📄 Scientific Papers
-
-文献精读、研究综述和论文笔记。
-
-📖 [进入 Scientific Papers](04-Papers/README.md)
-
-### 🚀 Projects
-
-个人科研项目、编程项目及长期计划。
-
-📖 [进入 Projects](05-Projects/README.md)
+- [Ligation](protocols/molecular-biology/ligation.md)
+- [Transformation](protocols/molecular-biology/transformation.md)
+- [Miniprep](protocols/molecular-biology/miniprep.md)
+- [Insert Check](protocols/molecular-biology/insert-check.md)
 
 ---
 
-## ⭐ Quick Access
-
-- [Python 基础笔记](02-Programming/Python-Basics.md)
-- [科研知识库](01-Biomedical-Research/README.md)
-- [论文阅读笔记](04-Papers/README.md)
-
----
-
-## 📝 About This Knowledge Base
-
-This repository serves as a long-term personal
-knowledge management system.
-
-Topics include biomedical research, programming,
-financial analysis, and personal projects.
+*Personal Knowledge Management · Research & Learning*
