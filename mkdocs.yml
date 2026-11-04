@@ -2,24 +2,40 @@ site_name: Chenyang's Knowledge Base
 
 theme:
   name: material
-  language: zh
+  language: ja
 
   features:
+    - navigation.tabs
     - navigation.sections
-    - navigation.expand
+    - navigation.top
+    - navigation.path
+    - toc.follow
     - search.suggest
     - search.highlight
-    - navigation.top
+    - content.code.copy
+  
 
   palette:
     - scheme: default
+      primary: indigo
+      accent: teal
       toggle:
-        icon: material/weather-night
-        name: 切换深色模式
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+
     - scheme: slate
+      primary: indigo
+      accent: teal
       toggle:
-        icon: material/weather-sunny
-        name: 切换浅色模式
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
 
 plugins:
   - search:
@@ -27,3 +43,23 @@ plugins:
         - zh
         - en
         - ja
+
+
+nav:
+    - ホーム: index.md
+    - 実験プロトコル:
+      - プロトコル一覧: protocols/index.md
+      - 分子生物学:
+          - Oligo Annealing: protocols/molecular-biology/oligo-annealing.md
+          - Ligation: protocols/molecular-biology/ligation.md
+          - Restriction Digestion: protocols/molecular-biology/restriction-digestion.md
+          - Site-directed Mutagenesis: protocols/molecular-biology/site-directed-mutagenesis.md
+          - Transformation: protocols/molecular-biology/transformation.md
+          - Colony Picking: protocols/molecular-biology/colony-pickup.md
+          - Miniprep: protocols/molecular-biology/miniprep.md
+          - Insert Check: protocols/molecular-biology/insert-check.md
+          - Sequencing Sample: protocols/molecular-biology/sequencing-sample-preparation.md
+          - Midi Culture: protocols/molecular-biology/midi-culture.md
+          - Midiprep: protocols/molecular-biology/midiprep.md
+          - Reagent Preparation: protocols/molecular-biology/reagent-preparation.md
+
